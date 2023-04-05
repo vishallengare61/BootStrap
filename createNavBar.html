@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NavBar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container-fluidBox{
+            height: 70px;
+            width: 100%;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+           justify-content: flex-start;
+        }
+        .first-item{
+            margin-left: 0;
+        }
+        li{
+            margin-left: 60px;
+        }
+        .searchBar{
+            height: 40px;
+            width: 200px;
+            margin-left: -50px;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container-fluidBox">
+        
+        <ul>
+            <li class="first-item">NAVBAR</li>
+            <li>HOME</li>
+            <li>CONTACT US</li>
+            <li>ABOUT US</li>
+            <li>WHAT'S NEW</li>
+            <li>MORE</li>
+            <li>SEARCH</li>
+            
+            <li> <input type="search" class="searchBar" placeholder="search here.."> </li>
+        </ul>
+
+    </div>
+    
+</body>
+</html>
